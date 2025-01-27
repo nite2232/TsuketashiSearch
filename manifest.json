@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "つけたし検索",
+    "author": "nite",
+    "version": "1.0",
+    "description": "よく使う検索キーワードを管理し、検索の手間を省きます。",
+
+    "action":{
+        "default_popup": "popup.html",
+        "default_icon": {
+            "32": "icon32.png"
+          }
+    },
+
+    "background": {
+        "service_worker": "background.js"
+      },
+  
+    "permissions": [
+      "contextMenus",
+      "tabs",
+      "storage"
+    ]
+  }
