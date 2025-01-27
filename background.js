@@ -46,7 +46,7 @@ function updateContextMenu() {
                         id: word.id,
                         title: word.id,
                         parentId: 'custom-search-parent',
-                        contexts: ["selection"]
+                        contexts: ["selection"],
                     });
                 }
             });
